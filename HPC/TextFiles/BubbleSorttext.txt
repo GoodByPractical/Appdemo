@@ -29,7 +29,7 @@ void parallelBubbleSort(int *arr, int n) {
 }
 
 int main() {
-    int n = 100;
+    int n = 1000;
     int *arr = new int[n];
     int *arr2 = new int[n];
 
