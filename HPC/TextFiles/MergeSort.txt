@@ -70,7 +70,7 @@ void mergeSortParallel(int *arr, int l, int r) {
 }
 
 int main() {
-    const int n = 100;
+    const int n = 50000;
     int *arr = new int[n];
     int *arr2 = new int[n];
 
