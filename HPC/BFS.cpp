@@ -47,11 +47,9 @@ int main() {
      
     
     std::cout<<"BFS"<<std::endl;
-    #pragma omp parallel
-    {
-        #pragma omp single
+    
         bfs(root);
-    }
+    
 
     return 0;
 }
